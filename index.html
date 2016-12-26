@@ -77,8 +77,33 @@
 										<li>Figroll [Also don't know this one yet]</li>
 									</ul>
 									<p><h5>Sources: <a target="_blank" href="http://stackoverflow.com/questions/22035938/alternatives-to-github-pages">stackoverflow</a>, <a target="_blank" href="http://lmgtfy.com/?q=github+pages+alternative">google</a>, <a target="_blank" href="https://medium.freecodecamp.com/surge-vs-github-pages-deploying-a-create-react-app-project-c0ecbf317089#.gvso3xg6b">medium</a></h5></p>
-									<p>Here I am going to explain how to use Surge. Do note that this page is hosted on Github Pages, I wanted to try both!</p>
-									
+									<p><span class="image left"><img src="images/surge-logo.svg" alt="Surge Logo" style="width: 5em" /></span>Here I am going to explain how to use Surge. Do note that this page is hosted on Github Pages, as I wanted to try both. Surge is a tool built using NodeJS, which is basically Javascript for servers and desktops!</p>
+									<ol>
+										<li>Create a new folder on your computer, with a index.html page containing:<br />
+										<code>&lt;h1&gt;Hello from Surge!&lt;/h1&gt;</code>
+										<li>Now let's install NodeJS: download and install it from <a target="_blank" href="https://nodejs.org/en/">nodejs.org</a>. Go ahead, I'll be waiting.</li>
+										<li>Next: install surge using <abbr title="Node Package Manager">npm</abbr> from the command line: <code>npm install --global surge</code>
+										<li>Then we publish the page using: <code>surge</code> (yes, that's it - well, do answer the questions!) <br />
+										For me it looked like this:
+										<pre><code>C:\Users\Johannes\Projects\static>surge
+
+    Welcome to Surge! (surge.sh)
+    Please login or create an account by entering your email and password:
+
+              email: my.email@gmail.com
+           password:
+       project path: C:\Users\Johannes\Projects\static\
+               size: 2 files, 180 bytes
+             domain: bent-town.surge.sh
+             upload: [====================] 100%, eta: 0.0s
+   propagate on CDN: [====================] 100%
+               plan: Free
+              users: my.email@gmail.com
+         IP Address: 127.0.0.1
+
+	Success! Project is published and running at bent-town.surge.sh</code></pre>
+									</ol>
+									<p>That's it: go visit your site at -something-.surge.sh and look at your awesome page!</p>
 								</div>
 							</section>
 
