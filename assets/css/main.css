@@ -2507,7 +2507,7 @@
 			}
 
 			#header > header h1 {
-				font-size: 1.75em;
+				font-size: 1.5em;
 				margin: 0;
 			}
 
@@ -2563,7 +2563,7 @@
 						border: 0;
 						color: #ffffff !important;
 						display: block;
-						padding: 0.85em 0;
+						padding: 0.5em 0;
 						text-decoration: none;
 					}
 
