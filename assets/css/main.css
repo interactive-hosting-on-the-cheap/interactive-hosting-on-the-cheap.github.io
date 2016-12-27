@@ -2590,7 +2590,7 @@
 	}
 
 		#main > section > .container {
-			padding: 6em 0 4em 0;
+			padding: 2em 0 2em 0;
 		}
 
 		#main > section:first-child {
@@ -2606,7 +2606,7 @@
 		background-size: cover;
 		content: '';
 		display: block;
-		height: 15em;
+		height: 20em;
 		width: 100%;
 	}
 
