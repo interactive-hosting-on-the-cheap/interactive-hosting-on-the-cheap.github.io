@@ -2610,6 +2610,17 @@
 		width: 100%;
 	}
 
+	#twodotfive:before {
+		background-image: url("../../images/theory-banner.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 20em;
+		width: 100%;
+	}
+
 /* Footer */
 
 	#footer {
